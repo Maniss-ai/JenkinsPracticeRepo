@@ -1,5 +1,6 @@
 FROM centos
 RUN yum install python36 -y
+RUN apt-get install python3-pip
 RUN pip install joblib
 RUN pip install numpy
 RUN pip install pandas
